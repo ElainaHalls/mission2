@@ -35,6 +35,7 @@ internal class Program
         for (int iCount = 0; iCount < results.Length; iCount++)
         {
             // Calculate the percentage of the total number of rolls for each number. 
+            // "double" is a data type that represents double-precision floating-point numbers.
             double percentage = (double)results[iCount] / numberOfRolls * 100;
 
             // Round to the nearest whole number
