@@ -10,7 +10,7 @@ internal class Program
     private static void Main(string[] args)
     {
         // Ask the user to enter in the number of rolls they'd like to simulate.
-        Console.WriteLine("Welcome to the dice throwing simulator!\nHow many dice rolls would you like to sim?");
+        Console.WriteLine("Welcome to the dice throwing simulator!\nHow many dice rolls would you like to simulate?");
        
         // Convert the number of rolls to an integer.
         int numberOfRolls = Convert.ToInt32(Console.ReadLine());
