@@ -2,6 +2,7 @@
 
 internal class Program
 {
+    // Main class
     private static void Main(string[] args)
     {
         Console.WriteLine("Welcome to the dice throwing simulator!\nHow many dice rolls would you like to simulate?");
